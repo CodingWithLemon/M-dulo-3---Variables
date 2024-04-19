@@ -1,3 +1,5 @@
+const estilo = `background-color: green; font-weith: bold`;
+
 
 const grupo1 = {
     nombre: 'The Beatles',
@@ -33,6 +35,9 @@ const grupo5 = {
     activo: true,
     genero: '🎸 Rock',
 };
+
+console.log(`%c ${grupo1.nombre}`, estilo)
+
 
 console.log(grupo1)
 console.log(grupo2)
