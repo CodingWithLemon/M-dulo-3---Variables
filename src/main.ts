@@ -1,4 +1,4 @@
-const estilo = `background-color: green; font-weith: bold`;
+const estilo = `background-color: green; font-weith: bold; font-size: 18px`;
 
 
 const grupo1 = {
@@ -37,6 +37,10 @@ const grupo5 = {
 };
 
 console.log(`%c ${grupo1.nombre}`, estilo)
+console.log(`%c ${grupo2.nombre}`, estilo)
+console.log(`%c ${grupo3.nombre}`, estilo)
+console.log(`%c ${grupo4.nombre}`, estilo)
+console.log(`%c ${grupo5.nombre}`, estilo)
 
 
 console.log(grupo1)
